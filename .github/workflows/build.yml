@@ -2,9 +2,11 @@ name: Build
 
 on:
   push:
-    branches: [1.21.1Neo]
+    ~
   pull_request:
-    branches: [1.21.1Neo]
+    ~
+  workflow_dispatch:
+    ~
 
 jobs:
   build:
